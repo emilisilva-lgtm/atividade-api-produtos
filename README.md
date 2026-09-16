@@ -2,5 +2,5 @@
 
 ### TODO
 
--aprender comandos git
--entender oque é branch
+- aprender comandos git
+- entender oque é branch
