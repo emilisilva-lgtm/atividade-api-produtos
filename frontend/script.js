@@ -11,13 +11,23 @@ async function carregarDados() {
     listaProdutos.innerHTML = "";
 
     produtos.forEach(produto => {
+
         listaProdutos.innerHTML += `
             <div class="card">
+
+                <img src="${produto.imagem}" alt="${produto.nome}">
+
                 <h2>${produto.nome}</h2>
+
                 <p>Categoria: ${produto.categoria}</p>
-                <p class="preco">Preço: R$ ${produto.preco}</p>
+
+                <p class="preco">
+                    Preço: R$ ${produto.preco}
+                </p>
+
             </div>
         `;
+
     });
 }
 
